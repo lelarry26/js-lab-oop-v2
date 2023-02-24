@@ -3,29 +3,33 @@
 
 ## Problems 
 
-1. Create an empty class called `Student`
+#### 1. Create a class
+Create an empty class called `Student`
 
 
-2. Create 5 students objects (instances of the class `Student`) of `Student` types
+#### 2. Create Objects
+Create 5 students objects (instances of the class `Student`) of `Student` type.
 
 
-3. Create a `greeting` method inside of the class `Student` class with a `name` parameter. The return of the method should be the string:
+#### 3. Create a method
+Create a `greeting` method inside of the class `Student` class with a `name` parameter. The return of the method should be the string:
 
 ```js
 `Good morning ${name}`
 ``` 
 
-4. Call the greet  method on each of the students in #2 passing in a different
+#### 4. Call the greet method
+Call the greet  method on each of the students in #2 passing in a different
 name argument each time. Since the method is returning a string, how would you output the result to your terminal?
 
-5. Create a constructor for the `Student` class. 
-- 5a. Create a print statement inside of the constructor
-- 5b. Run your `oop.js` again and you should see a print statement for each student object 
-That you created 
+#### 5. Constructor 
+- Create a constructor for the `Student` class. 
+- Create a print statement inside of the constructor with the string **"Hello World"**.
+- Run your `oop.js` again and you should see a print statement for each student object that you created. 
 
-
-6. Pass in "name" as a parameter to your Student constructor. 
-- 6b. Create an instance variable for name
+#### 6. Adding instance variables to constructor
+- Pass in `name` as a parameter to your `Student` constructor. 
+- Create an instance variable for `name`.
 - 6c. Refactor your greeting method by removing the name parameter and 
 adding a "self" in front of the printed "name" variable in the return statement 
 6d. Refactor your Student objects by passing in the name as an argument when the
