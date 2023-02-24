@@ -8,19 +8,20 @@ Create an empty class called `Student`
 
 
 #### 2. Create Objects
-Create 5 students objects (instances of the class `Student`) of `Student` type.
+- Create 5 students objects (instances of the class `Student`) of `Student` type.
 
 
 #### 3. Create a method
-Create a `greeting` method inside of the class `Student` class with a `name` parameter. The return of the method should be the string:
+- Create a `greeting` method inside of the class `Student` class with a `name` parameter. The return of the method should be the string:
 
 ```js
 `Good morning ${name}`
 ``` 
 
 #### 4. Call the greet method
-Call the greet  method on each of the students in #2 passing in a different
-name argument each time. Since the method is returning a string, how would you output the result to your terminal?
+- Call the greet method on each of the students in #2 passing in a different
+name argument each time. 
+- Since the method is returning a string, how would you output the result to your terminal?
 
 #### 5. Constructor 
 - Create a constructor for the `Student` class. 
