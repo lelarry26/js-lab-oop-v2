@@ -4,8 +4,7 @@
 ## Problems 
 
 #### 1. Create a class
-Create an empty class called `Student`
-
+- Create an empty class called `Student`
 
 #### 2. Create Objects
 - Create 5 students objects (instances of the class `Student`) of `Student` type.
