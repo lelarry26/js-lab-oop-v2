@@ -49,7 +49,7 @@ You should see a print statement for each name you passed into your object insta
 ## Inheritance 
 
 #### Car Class
-- Create a new class called `Car` with the following method :
+Create a new class called `Car` with the following method :
 
 `CarDetails` which prints "Here are details of this car"
 
