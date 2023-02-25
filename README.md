@@ -1,4 +1,46 @@
+# JavaScript Obeject Oritented Programming Lab Exercises
 
+In this lab, you are going to practice the basics of creating **Object Oriented Programming**, using JavaScript as a programming language, by completing problems that will challenge your knowledge of core princples. 
+
+## Objectives 
+- Create classes.
+- Instantiate objects with constructors.
+- Customize classes with properties and methods.
+- Extend base classes and overrides method in subclasses.
+
+## Instructions 
+
+- **Fork** this repo to your account by clicking on the **fork** Button at the top of this page. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/3/38/GitHub_Fork_Button.png)
+
+*A **fork** is a copy of this repository. This forked repository will appear on your github account.*
+
+- Find the repository on *YOUR* account (ie yourUserName/js-lab-oop) and click on the green `Code` button at the top of the page.
+
+![](./images/githubCodeButton.png)
+
+- Copy the path in the dialoge box
+- Navigate to a location on **your local computer in VSCode** where you keep your homework 
+- Clone this repsository by typing the following command in your terminal
+
+```
+clone [`path that you just copied`]
+```
+
+For example: 
+
+```bash 
+clone https://github.com/DigitalCraftsStudents/js-lab-oop.git
+```
+
+- Navigate into the folder titled `js-lab-oop`
+- Open the file called `oop.js` and solve the lab problems 
+- To run a file javascript file using node, you can run it from your terminal like this:
+
+```bash
+$ node loops.js
+```
 
 
 ## Problems 
@@ -62,7 +104,7 @@ Create a new class called `Hybrid` that inherits from the `Car` class with the f
 #### Electric Class
 Create a new class called `Electric` that inherits from the `Car` class with the following  method: 
 
-`CarTyp`e which prints "I am a hybrid car" 
+`CarType` which prints "I am a hybrid car" 
 
 #### Using Inheritance
 - Create a Hybrid instance and an Electric instance
