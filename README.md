@@ -1,6 +1,6 @@
-# JavaScript Obeject Oritented Programming Lab Exercises
+# JavaScript Object Oriented Programming Lab Exercises
 
-In this lab, you are going to practice the basics of creating **Object Oriented Programming**, using JavaScript as a programming language, by completing problems that will challenge your knowledge of core princples. 
+In this lab, you are going to practice the basics of creating **Object Oriented Programming**, using JavaScript as a programming language, by completing problems that will challenge your knowledge of core principles. 
 
 ## Objectives 
 - Create classes.
@@ -20,9 +20,9 @@ In this lab, you are going to practice the basics of creating **Object Oriented 
 
 ![](./images/githubCodeButton.png)
 
-- Copy the path in the dialoge box
+- Copy the path in the dialogue box
 - Navigate to a location on **your local computer in VSCode** where you keep your homework 
-- Clone this repsository by typing the following command in your terminal
+- Clone this repository by typing the following command in your terminal
 
 ```
 clone [`path that you just copied`]
