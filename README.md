@@ -104,7 +104,7 @@ Create a new class called `Hybrid` that inherits from the `Car` class with the f
 #### Electric Class
 Create a new class called `Electric` that inherits from the `Car` class with the following  method: 
 
-`CarType` which prints "I am a hybrid car" 
+`CarType` which prints "I am an electric car" 
 
 #### Using Inheritance
 - Create a Hybrid instance and an Electric instance
