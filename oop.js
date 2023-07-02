@@ -25,17 +25,17 @@
 // The return of the method should be the string: `Good morning ${name}`
 
 // class Student{
-//    greetingMethod(){
-//       let greeting = "Good morning ${name}";
+//    greetingMethod(name){
+//       let greeting = `Good morning ${name}`;
 //       return greeting;
 //    } 
 // }
-
 // let student1 = new Student();
 // let student2 = new Student();
 // let student3 = new Student();
 // let student4 = new Student();
 // let student5 = new Student();
+
 
 //I'm not sure if I am following the problem correctly, since name isn't yet defined in a constructor
 
@@ -49,8 +49,8 @@
 //--Not sure what the question is asking, see comment below code
 
 // class Student{
-//    greetingMethod(){
-//       let greeting = "`Good morning ${name}`";
+//    greetingMethod(name){
+//       let greeting = `Good morning ${name}`;
 //       return greeting;
 //    } 
 // }
@@ -61,11 +61,11 @@
 // let student4 = new Student();
 // let student5 = new Student();
 
-// console.log(student1.greetingMethod());
-// console.log(student2.greetingMethod());
-// console.log(student3.greetingMethod());
-// console.log(student4.greetingMethod());
-// console.log(student5.greetingMethod());
+// console.log(student1.greetingMethod("name1"));
+// console.log(student2.greetingMethod("name2"));
+// console.log(student3.greetingMethod("name3"));
+// console.log(student4.greetingMethod("name4"));
+// console.log(student5.greetingMethod("name5"));
 
 //--Is this right? I'm not sure if there is a way to define name without a constructer before the next steps, 
 //--it prints undefined when it is `Good morning ${name}` instead of "`Good morning ${name}`" 
@@ -85,8 +85,8 @@
 //    constructor(){
 //       console.log("Hello World")
 //    }
-//    greetingMethod(){
-//       let greeting = "`Good morning ${name}`";
+//    greetingMethod(name){
+//       let greeting = `Good morning ${name}`;
 //       return greeting;
 //    } 
 // }
@@ -97,11 +97,11 @@
 // let student4 = new Student();
 // let student5 = new Student();
 
-// console.log(student1.greetingMethod());
-// console.log(student2.greetingMethod());
-// console.log(student3.greetingMethod());
-// console.log(student4.greetingMethod());
-// console.log(student5.greetingMethod());
+// console.log(student1.greetingMethod("name1"));
+// console.log(student2.greetingMethod("name2"));
+// console.log(student3.greetingMethod("name3"));
+// console.log(student4.greetingMethod("name4"));
+// console.log(student5.greetingMethod("name5"));
 
 //------------------------------------------------------------
 
@@ -133,7 +133,7 @@
 
 // class Student{
 //    constructor(name){
-//       this.name = name
+//       this.name = name;
 //       console.log(`Good morning ${this.name}`);
 //    }
 //    greetingMethod(){
@@ -196,17 +196,22 @@
 //    }
 //    carDetailsMethod(){
 //       let carDetails = "Here are the details of this car:";
-//       return carDetails + this.make + this.model + this.color;
+      
+//       // // return carDetails + this.make + this.model + this.color; bad, no spaces
+//       // // return carDetails + " " + this.make + " " + this.model + " " +this.color; good, spaces in quotes
+//       return `${carDetails} ${this.make} ${this.model} ${this.color}`; best
 //    }
 // }
 
 // class Hybrid extends Car{
-//    // constructor(make, model, color){ --Constructor not needed because it is inherited?
-//    //    super(make, model, color)
-//    // }
+//    constructor(make, model, color, type){ //--Constructor not needed because it is inherited?
+//       super(make, model, color);
+//       // this.type = type; --Extra
+//    }
+   
 //    carTypeMethod(){
-//    let carType = "I am a hybrid car.";
-//    return this.carDetailsMethod() + carType;
+//       let carType = `I am a ${this.type} hybrid car.`;
+//       return carType;
 //    }
 // }
 
@@ -214,13 +219,20 @@
 //    carTypeMethod(){
 //       let carType = "I am an electric car.";
 //       return carType;
-//       }
 //    }
+// }
 
-// let car1 = new Hybrid("MakeA ", "ModelA ", "ColorA ");
-// let car2 = new Electric("MakeB ", "ModelB ", "ColorB ");
+// let car1 = new Hybrid("MakeA", "ModelA", "ColorA");
+// let car2 = new Electric("MakeB", "ModelB", "ColorB");
+// // let car1 = new Hybrid("Toyota ", "Corolla", "white", "sedan"); // I'm adding a new argument 
 
 // console.log(car1.carTypeMethod());
 // console.log(car2.carTypeMethod());
 // console.log(car1.carDetailsMethod(car1.make, car1.model, car1.color));
 // console.log(car2.carDetailsMethod(car2.make, car2.model, car2.color));
+
+// // console.log(car1.carTypeMethod());
+// // function testFunction(){
+// //    return "Bubble tea is clintons drug"
+// // }
+// // console.log(`Anything I want    ${car1.carDetailsMethod(car1.make, car1.model, car1.color)} ${car1.carTypeMethod()} ${testFunction()} bubble tea`);
