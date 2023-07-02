@@ -233,6 +233,6 @@
 
 // // console.log(car1.carTypeMethod());
 // // function testFunction(){
-// //    return "Bubble tea is clintons drug"
+// //    return "Bubble tea is clintons favorite"
 // // }
 // // console.log(`Anything I want    ${car1.carDetailsMethod(car1.make, car1.model, car1.color)} ${car1.carTypeMethod()} ${testFunction()} bubble tea`);
